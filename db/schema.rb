@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(version: 20140922025144) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "status_type"
-    t.integer  "employee_id"
+    t.integer  "salesperson_id"
   end
 
   create_table "users", force: true do |t|
